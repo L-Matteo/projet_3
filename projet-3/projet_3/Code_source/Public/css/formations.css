@@ -1,0 +1,62 @@
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #303030;
+    margin: 2.5rem 0 0 4rem;
+}
+
+form {
+    margin: 2rem 0 0 4rem;
+}
+
+#select {
+    width: 20rem;
+    margin-right: 1rem;
+}
+
+#BtnFiltre {
+    background-color: #F0B27A;
+    border: none;
+}
+
+#listFormation {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 98%;
+}
+
+.formation {
+    height: auto;
+    width: 26.5rem;
+    border-radius: 1rem;
+    background-color: #f2f3f4;
+    margin: 2rem 0 0 4rem;
+}
+
+.formation img {
+    width: 100%;
+    height: 13.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.formation h3 {
+    margin: 1rem 0 1.5rem 0.7rem;
+    font-weight: 700;
+    color: #303030;
+}
+
+.formation p {
+    margin-left: 0.7rem;
+}
+
+.formation a {
+    margin-left: 0.7rem;
+    color: #7DCEA0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.formation a:hover {
+    text-decoration: underline;
+}

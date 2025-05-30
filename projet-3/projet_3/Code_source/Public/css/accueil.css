@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    font-family: "Nunito", Arial;
+}
+
+h1,
+h2,
+h3 {
+    color: #2E2E2E;
+}
+
+p {
+    color: #555555;
+}
+
+#firstPage {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/accueil.webp);
+    background-size: cover;
+    padding: 0.1rem;
+}
+
+#navAccueil {
+    width: 95%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 2rem 0 0 2rem;
+}
+
+#firstA {
+    margin-left: 5rem;
+}
+
+#firstA img {
+    width: 6rem;
+    height: 5rem;
+}
+
+.a {
+    font-size: 1.75rem;
+    text-decoration: none;
+    margin-left: 4rem;
+    color: #303030;
+}
+
+.a:hover {
+    border-bottom: 0.1rem solid;
+}
+
+#btnConnexion {
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #F0B27A;
+    margin-left: 30rem;
+    border: none;
+}
+
+#btnConnexion:hover {
+    transform: scale(1.05);
+}
+
+#firstPage h1 {
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 600;
+    margin-top: 8rem;
+    text-align: center;
+}
+
+#firstPage p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-body h3 {
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+#formConnexion {
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+#formConnexion label {
+    font-weight: bold;
+}
+
+#formConnexion input[type="email"] {
+    margin-bottom: 1.55rem;
+}
+
+#formConnexion input[type="email"],
+#formConnexion input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #303030;
+    width: 90%;
+}
+
+#formConnexion input[type="email"]:focus,
+#formConnexion input[type="password"]:focus {
+    border: none;
+    border-bottom: 1px solid #303030;
+    outline: none;
+}
+
+#formConnexion input[type="password"] {
+    margin-bottom: 1rem;
+}
+
+#passwordLost {
+    text-decoration: none;
+    color: #7DCEA0;
+}
+
+#SeConnecter {
+    width: 90%;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+    background-color: #F0B27A;
+    color: white;
+    border: none;
+}
+
+#createAccount {
+    text-decoration: none;
+    color: #7DCEA0;
+    margin-left: 3rem;
+}
+
+#presentation {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 95%;
+    margin-top: 4rem;
+}
+
+#presentation div {
+    height: 10rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+
+#about {
+    height: auto;
+    width: 100%;
+    margin-bottom: 3rem;
+    padding: 0.1rem;
+    background-color: #fdf0d3;
+    display: flex;
+}
+
+#about h2 {
+    font-size: 3rem;
+    margin: 5rem 0 2rem 7rem;
+    font-weight: 600;
+}
+
+#about p {
+    font-size: 1.4rem;
+    margin: 0 0 4rem 7rem;
+}
+
+#about img {
+    width: 9rem;
+    height: 7rem;
+    margin: 5rem 0 0 8rem;
+}
+
+#services {
+    height: auto;
+    width: 100%;
+    padding: 0.1rem;
+}
+
+#services h2 {
+    margin: 5rem 0 3rem 10rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#title {
+    display: flex;
+}
+
+#title img {
+    width: 4rem;
+    height: 5rem;
+    margin: 5rem 0 0 6.5rem;
+}
+
+#listFormation {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 98%;
+}
+
+.formation {
+    height: auto;
+    width: 26.5rem;
+    border-radius: 1rem;
+    background-color: #f2f3f4;
+    margin: 2rem 0 0 4rem;
+}
+
+.formation img {
+    width: 100%;
+    height: 13.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.formation h3 {
+    margin: 1rem 0 1.5rem 0.7rem;
+    font-weight: 700;
+    color: #303030;
+}
+
+.formation p {
+    margin-left: 0.7rem;
+}

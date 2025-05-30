@@ -1,0 +1,17 @@
+h2 {
+    margin: 4rem 0 0 2rem;
+}
+
+p {
+    margin: 2rem 0 0 2rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#btnInscription {
+    margin: 2rem 0 0 2rem;
+    background-color: #F0B27A;
+    border: none;
+}

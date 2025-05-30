@@ -1,0 +1,48 @@
+#navAccueil {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    background-color: #303030;
+}
+
+#firstA {
+    margin-left: 8rem;
+}
+
+#firstA img {
+    width: 8rem;
+    height: 5rem;
+}
+
+.a {
+    
+    font-size: 1.75rem;
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+
+.a:hover {
+    border-bottom: 0.1rem solid white;
+}
+
+#btnConnexion {
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #F0B27A;
+    margin-left: 30rem;
+    border: none;
+}
+
+#btnConnexion:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    margin: 10rem 0 0 30rem;
+}

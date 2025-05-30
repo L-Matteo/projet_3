@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: "Nunito", Arial;
+}
+
+#navAccueil {
+    background-color: #303030;
+    width: 100%;
+    height: 7.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#firstA {
+    margin-left: 8rem;
+}
+
+#firstA img {
+    width: 6rem;
+    height: 5rem;
+}
+
+.a { 
+    font-size: 1.75rem;
+    text-decoration: none;
+    margin-left: 6rem;
+    color: white;
+}
+
+.a:hover {
+    border-bottom: 0.1rem solid;
+}
+
+#formCreateAccount {
+    padding: 2rem;
+    margin-top: 1.5rem; 
+}
+
+#formCreateAccount label {
+    margin-left: 29rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#labelFirstName {
+    margin-left: 15.2rem !important;
+}
+
+#labelTel {
+    margin-left: 10.4rem !important;
+}
+
+#labelCheck {
+    margin-left: 1rem !important;
+}
+
+#labelCheck a {
+    color: #7DCEA0;
+}
+
+#formCreateAccount input[type="text"],
+#formCreateAccount input[type="email"],
+#formCreateAccount input[type="password"] {
+    margin-bottom: 1rem;
+    border: 0.14rem solid #303030;
+    border-radius: 0.3rem;
+    height: 3rem;
+    background-color: #f8f9f9;
+}
+
+#formCreateAccount input[type="email"],
+#formCreateAccount input[type="password"],
+#formCreateAccount input[type="text"], 
+#formCreateAccount input[type="checkbox"] {
+    margin-left: 29rem;
+}
+
+#firstName,
+#tel {
+    margin-left: 1rem !important;
+}
+
+#firstName, #lastname, #mail, #tel {
+    width: 17rem;
+}
+
+#login,
+#password {
+    width: 35.3rem;
+}
+
+#formCreateAccount input[type="submit"] {
+    font-weight: bold;
+    padding: 0.5rem;
+    width: 35.2rem;
+    height: 3.2rem;
+    margin-top: 2.5rem;
+    margin-left: 29.1rem;
+    background-color: #F0B27A;
+    border-radius: 0.3rem;
+}
+
+#formCreateAccount input[type="submit"]:hover{
+    transform: scale(1.03);
+} 
+
